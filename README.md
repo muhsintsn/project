@@ -1,2 +1,2 @@
 # python-project
-bu repo python projeleri için kullanılacaktır.
+bu repo python projeleri ve ödevler içindir.
