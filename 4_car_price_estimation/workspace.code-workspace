@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\falsk"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SSH FS - mt"
+	}
+}

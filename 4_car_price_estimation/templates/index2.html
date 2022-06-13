@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clarusway mld course_ flask webserver</title>
+</head>
+<body>
+    <h2>welcome to my prediction page</h2>
+    <form action="#" method="POST">
+        <label for="age">age</label>
+        <input type="number" name="age" value="3">
+        <hr>
+
+        <label for="km">km</label>
+        <input type="number" step="1000" name="km" value="10000">
+        <hr>
+
+        <label for="hp_kW">hp_kW</label>
+        <input type="number" name="hp_kW" value="80">
+        <hr>
+        
+        <label for="Gearing_Type">Gearing_Type</label>
+        <select name="Gearing_Type">
+            <option value="Gearing_Type_Manual">Manual</option>
+            <option value="Gearing_Type_Automatic">Automatic</option>
+            <option value="Gearing_Type_Semi-automatic">Semi_Automatic</option>
+        </select>
+
+        <label for="make_model">make_model</label>
+        <select name="make_model">
+            <option value="make_model_Audi A1">Audi A1</option>
+            <option value="make_model_Audi A3">Audi A3</option>
+            <option value="make_model_Opel Astra">Opel Astra</option>
+            <option value="make_model_Opel Corsa">Opel Corsa</option>
+            <option value="make_model_Opel Insignia">Opel Insignia</option>
+            <option value="make_model_Renault Clio">Renault Clio</option>
+            <option value="make_model_Renault Duster">Renault Duster</option>
+            <option value="'make_model_Renault Espace">Renault Espace</option>
+
+        </select>
+   
+        <input type="submit" value="P R E D I C T">
+    </form>
+
+    {% block content %}
+    {% endblock%}
+
+</body>
+</html>
